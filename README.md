@@ -8,7 +8,7 @@ This repository is the official implementation of our __3DV 2025__ paper:
 <img src="img/cwgrasp_optimization.gif" alt="Logo" width="100%">
 </a>
 
-<p align="justify">
+
 CWGrasp is a framework for 3D Whole-Body grasping generation either with the right or the
 left hand. Given an object upon a receptacle, it first calcualte all the possible reaching 
 directions using a probabilistic 3D vector field, called [ReachingField](https://github.com/gpaschalidis/ReachingField). 
@@ -16,14 +16,6 @@ It samples a reaching direction from ReachingField and conditioned to that it ge
 that satisfy it, using [CGrasp](https://github.com/gpaschalidis/CGrasp) and [CReach](https://github.com/gpaschalidis/CReach) 
 respectively. To make the hand from CGrasp and the body from CReach fully compatible we perform optimization 
 in the final stage of CWgrasp. 
-</p>
-
-<p align="center">
-    <img width="360" alt="" src="img/cwgrasp_camera.gif"/>
-    <img width="360" alt="" src="img/cwgrasp_apple.gif"/>
-    <img width="360" alt="" src="img/cwgrasp_wineglass.gif"/>
-</p>
-
 
 ## Installation & Dependencies
 Clone the repository using:
