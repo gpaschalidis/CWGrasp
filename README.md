@@ -64,7 +64,7 @@ You should have the following structure:
       └── mano
       └── smplx
 ```
-#### Test CWGrasp
+## Test CWGrasp
 To test CWGrasp you need to download the pre-trained CGrasp and CReach models, as well as the RefineNet model from GrabNet.
 - Download the pre-trained CGrasp model from [here](https://docs.google.com/forms/d/1tpUAQms4sAHOj87bsKhPAsCffCj74Y0cD-ywi7pxB_E/edit).
 - Download the pre-trained CReach model from [here](https://docs.google.com/forms/d/1TBkvFmiLwf_TAnZOlBEmEXck1Tv-MNUcftlOKxKow1Q/edit).
