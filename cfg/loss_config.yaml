@@ -1,0 +1,35 @@
+data:
+    subsample_sbj: True
+    sbj_verts_region_map_pth: "sbj/sbj_verts_region_mapping.npy"
+    mano2smplx_verts_ids: "sbj/MANO_SMPLX_vertex_ids.npy"
+    mano2smplx_verts_ids_both: "sbj/MANO_SMPLX_vertex_ids.pkl"
+    interesting_pth: "sbj/interesting.npz"
+    sbj_verts_simplified: "sbj/vertices_simplified_correspondences.npy"
+    sbj_faces_simplified: "sbj/faces_simplified.npy"
+    adj_matrix_orig: "sbj/adj_matrix_original.npy"
+    adj_matrix_simplified: "sbj/adj_matrix_simplified.npy"  
+    mano_closed_faces_path: "sbj/mano_closed_faces.npz"  
+    hd_smplx_regressor: "sbj/smplx_neutral_hd_vert_regressor_sparse.npz"
+    latentD: 16
+    obstacle_sbj2obj: True
+    obstacle_obj2sbj: False
+    obstacle_sbj2obj_extra: "connected_components"                         
+    mano_model_path: "models/mano"
+    smplx_path: "models"
+    bps_dir: "data/bps.npz"
+
+weights:
+    penet_in: 1000
+    floor: 1
+    body_pose: 20
+    hand: 20
+    gaze: 1
+    stability: 0
+    posture: 1
+    under_ground: 0
+
+
+pretrained:
+    cgrasp: "pretrained/cgrasp.pt"
+    refine_net: "pretrained/refinenet.pt"
+    creach: "pretrained/creach.pt"
