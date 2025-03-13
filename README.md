@@ -66,8 +66,8 @@ You should have the following structure:
 ```
 ## Test CWGrasp
 To test CWGrasp you need to download the pre-trained CGrasp and CReach models, as well as the RefineNet model from GrabNet.
-- Download the pre-trained CGrasp model from [here](https://docs.google.com/forms/d/1tpUAQms4sAHOj87bsKhPAsCffCj74Y0cD-ywi7pxB_E/edit).
-- Download the pre-trained CReach model from [here](https://docs.google.com/forms/d/1TBkvFmiLwf_TAnZOlBEmEXck1Tv-MNUcftlOKxKow1Q/edit).
+- Download the pre-trained CGrasp model from [here](https://docs.google.com/forms/d/e/1FAIpQLSeEljlokQ_WxJoDYEjbLgzq4vjx-FgMrLnErNqVhvefDw2Ycg/viewform?usp=dialog).
+- Download the pre-trained CReach model from [here](https://docs.google.com/forms/d/e/1FAIpQLSf7hS6qagxL74XQsvq4hlgRhDl8pk8YopRoxZdX0QgrD7oTCw/viewform?usp=dialog).
 - Download the pre-trained RefineNet model from the [GRAB website](https://grab.is.tue.mpg.de/).
 - Move all these models to the "pretrained" folder, so you have the following structure.
 
