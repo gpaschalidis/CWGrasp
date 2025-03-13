@@ -17,6 +17,14 @@ that satisfy it, using [CGrasp](https://github.com/gpaschalidis/CGrasp) and [CRe
 respectively. To make the hand from CGrasp and the body from CReach fully compatible we perform optimization 
 in the final stage of CWgrasp. 
 
+We provide all modules of CWGrasp in separate github repositories, so you canintergate them into your own pipeline in as es way as possible:
+We provide all CWGrasp modules in separate GitHub repositories, making it easy to integrate them into your own pipeline.
+- [ReachingField](https://github.com/gpaschalidis/ReachingField)
+- [CGrasp](https://github.com/gpaschalidis/CGrasp)
+- [CReach](https://github.com/gpaschalidis/CReach)
+- [Optimization](https://github.com/gpaschalidis/CWGrasp)
+
+
 ## Installation & Dependencies
 Clone the repository using:
 
